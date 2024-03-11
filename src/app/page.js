@@ -1,10 +1,10 @@
-import ClickyRoundButton from "@/components/ClickyRoundButton";
+import PhotoEditor from "@/components/PhotoEditor";
 import React from "react";
 
 export default function page() {
   return (
-    <main className="flex min-h-screen justify-center items-center">
-      <ClickyRoundButton />
+    <main className="flex min-h-screen justify-center items-center bg-zinc-800">
+      <PhotoEditor />
     </main>
   );
 }
